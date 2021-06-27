@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Titan+One');
+body{
+  background-color:rgb(255, 255, 255); 
+}
+
+#wordsToTranslate {
+  font-size: 30px;
+}
+
+
+#translatedWordsList {
+  font-size: 30px;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+}
+
+#langName {
+  align-content: center;
+  font-family:'Titan One',cursive;
+  font-size: 50px;
+  color: rgb(209, 38, 132); 
+}
+
+
+#header {
+  background-color: rgb(132, 152, 218);
+  padding-bottom: 10px;
+  padding-top: 10px;
+  height: 100px;
+  text-align: center;
+  
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+  font-family:'Titan One',cursive;
+  font-size:20px;
+  font-weight:20;
+}
+
+.leftSideColumn {
+  width: 300px;
+  font-family:'Titan One',cursive;
+  font-size:20px;
+  font-weight:2;
+}
+
+.rightSideColumn {
+  width: 300px;
+  font-family:'Titan One',cursive;
+  font-size:20px;
+  font-weight:2;
+}
+
+
+.scratched {
+  color: green;
+  text-decoration: line-through;
+}
